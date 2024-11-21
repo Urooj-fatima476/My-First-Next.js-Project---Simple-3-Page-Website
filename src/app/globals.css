@@ -1,0 +1,365 @@
+/* ==============================
+   Global Styles (for all pages)
+   ============================== */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Main Section Styling */
+section {
+  padding: 20px;
+}
+
+/* ==============================
+   Navbar Styles
+   ============================== */
+
+/* Navbar Style */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* ==============================
+   Footer Styles
+   ============================== */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #131212;
+  color: white;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* ==============================
+   Homepage Specific Styles
+   ============================== */
+
+/* Main Content Section (Homepage) */
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ==============================
+   Homepage Card Styles
+   ============================== */
+
+/* Card Container */
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px; /* Adds space between cards */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Card Styling */
+.card {
+  width: 30%; /* Each card takes up 30% of the container width */
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for 3D effect */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: white;
+  text-decoration-color: #ddd;
+}
+
+/* Background Image for Cards (image on top) */
+.card:nth-child(1) {
+  /* Example image */
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* Set a fixed height for the image */
+}
+
+.card:nth-child(2) {
+  
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.card:nth-child(3) {
+ 
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+}
+/* ==============================
+   Card Section Styles
+   ============================== */
+
+/* General Card Container Styles */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows the cards to wrap to the next line */
+  gap: 30px; /* Adds space between each card */
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Card Styling */
+.card {
+  width: 30%; /* Each card takes up 30% of the width */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a 3D effect */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card-image {
+  width: 100%;
+  height: 250px; /* Fixed height for images */
+  background-color: #f1f1f1; /* Placeholder color for the image section */
+  margin-bottom: 15px; /* Space between image and text */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+/* Card Header Styling */
+.card h4, .card h5, .card h6 {
+  color: #333;
+  margin: 15px 0;
+}
+
+/* Card Text Styling */
+.card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+  transform: translateY(-5px); /* Lift the card slightly */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* ==============================
+   Media Queries for Responsiveness
+   ============================== */
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Cards take full width on smaller screens */
+    margin-bottom: 20px; /* Adds space between stacked cards */
+  }
+
+  .cards-container {
+    justify-content: center; /* Centers the cards on small screens */
+  }
+}
+
+/* Text Styling on Cards (below the image) */
+.card h3 {
+  font-size: 1.8rem;
+  margin: 20px 0 10px; /* Margin on top and bottom */
+  font-weight: bold;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555; /* Ensure the text is readable */
+  opacity: 0.9;
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+  transform: translateY(-5px); /* Lift the card slightly */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Darker shadow for hover effect */
+}
+
+/* ==============================
+   Optional: Responsive Design for Smaller Screens
+   ============================== */
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    align-items: center;
+  }
+
+  .card {
+    width: 80%; /* Make cards wider on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .card h3 {
+    font-size: 1.6rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+}
+
+/* ==============================
+   About Page Styles
+   ============================== */
+
+   .about-section {
+    display: flex;
+    align-items: center;  /* Vertically align the content */
+    gap: 50px;  /* Large gap between text and image */
+    margin-top: 40px;
+  }
+  
+  .text {
+    width: 40%;  /* Text will take up 40% of the container's width */
+    text-align: justify;  /* Justify align the text */
+  }
+  
+  .about-image {
+    width: 100%;  /* Ensure the image takes up 100% of its container width */
+    max-width: 800px;  /* Limit the image width to 800px */
+    height: auto;  /* Maintain the aspect ratio */
+    border-radius: 10px;
+    flex-shrink: 0;  /* Prevent the image from shrinking */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* ==============================
+     Footer Styles
+     ============================== */
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
+  /* ==============================
+     Footer Styles
+     ============================== */
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+/* ==============================
+   Contact Page Styles
+   ============================== */
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #575757;
+}
+
+/* Center the "Contact Us" Heading */
+.contact-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* ==============================
+   Utility Classes (for spacing, etc.)
+   ============================== */
+
+/* Add space between elements */
+.spacer {
+  margin: 20px 0;
+}
+
+/* Add responsive text */
+.text-center {
+  text-align: center;
+}
