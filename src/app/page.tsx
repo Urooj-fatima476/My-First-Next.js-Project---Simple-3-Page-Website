@@ -1,5 +1,4 @@
 // src/app/home/page.tsx
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -7,9 +6,9 @@ export default function Home() {
       <div className="content">
         <h1>Software Development</h1>
         <p>
-          We provide high-quality services and solutions to help businesses achieve their goals. Let's get started!
+          We provide high-quality services and solutions to help businesses achieve their goals. Lets get started!
           At [Your Company Name], we specialize in developing custom software solutions tailored to your business needs. 
-          Whether you're looking to build a new application from the ground up or modernize an existing system, our experienced 
+          Whether youre looking to build a new application from the ground up or modernize an existing system, our experienced 
           team ensures that every solution is scalable, secure, and optimized for performance.
         </p>
 
@@ -52,8 +51,8 @@ export default function Home() {
       <div className="content">
         <h1>Mobile App Development</h1>
         <p>
-          We provide high-quality services and solutions to help businesses achieve their goals. Let's get started!
-          In today’s mobile-first world, your business needs a powerful mobile presence. Our mobile app development team creates 
+          We provide high-quality services and solutions to help businesses achieve their goals. Lets get started!
+          In todays mobile-first world, your business needs a powerful mobile presence. Our mobile app development team creates 
           intuitive, user-friendly apps for iOS and Android.
         </p>
       </div>
@@ -64,7 +63,7 @@ export default function Home() {
           <div className="card-image" style={{ backgroundImage: 'url(/images/mobile-app.jpg)' }}></div>
           <h4>iOS App Development</h4>
           <p>
-            We specialize in creating custom iOS apps that cater to your business's specific needs. Our apps are designed for speed, 
+            We specialize in creating custom iOS apps that cater to your businesss specific needs. Our apps are designed for speed, 
             performance, and seamless user experiences.Security is at the core of our software. We implement top-tier encryption, multi-factor authentication, and routine security audits to protect your business data. Your peace of mind is our priority, and we take every measure to ensure that your information remains safe  in the cloud.
           </p>
         </div>
@@ -74,8 +73,9 @@ export default function Home() {
           <h5>Android App Development</h5>
           <p>
             Our Android app development services focus on creating intuitive and engaging apps for Android devices, with smooth navigation 
-            and optimized performance. We specialize in creating custom iOS apps that cater to your business's specific needs. Our apps are designed for speed, 
-            performance, and seamless user experiences.Security is at the core of our software.We offer ongoing support and maintenance for your mobile apps to ensure they continue running smoothly.
+            and optimized performance. We specialize in creating custom iOS apps that cater to your businesss specific needs. Our apps are designed for speed, 
+            performance, and seamless user experiences.Security is at the core of our software.We offer ongoing support and maintenance for your mobile apps to
+             ensure they continue running smoothly.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function Home() {
           <p>
             We offer ongoing support and maintenance for your mobile apps to ensure they continue running smoothly, with regular updates 
             and troubleshooting.Our intuitive, cloud-based platform allows you to access your data securely from anywhere, making remote work and team collaboration easier than ever. 
-            With real-time analytics and customizable features, you’ll have the insights and flexibility to optimize your 
+            With real-time analytics and customizable features, youll have the insights and flexibility to optimize your 
             processes and make informed We offer ongoing support . 
           </p>
         </div>

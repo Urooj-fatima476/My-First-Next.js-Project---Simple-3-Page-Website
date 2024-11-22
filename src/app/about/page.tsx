@@ -9,10 +9,16 @@ export default function About() {
         <div className="about-section">
           <div className="text">
             <p>
-              Welcome to my About page! At [Your Company Name], I am passionate about delivering innovative and reliable software solutions that empower businesses to thrive in the digital age. With years of experience in the industry, I specialize in custom software development, system integrations, and comprehensive IT consulting services. I take the time to truly understand your unique challenges and craft tailored solutions that align with your specific goals.
+              Welcome to my About page! At [Your Company Name], I am passionate about delivering
+               innovative and reliable software solutions that empower businesses to thrive in the digital age.
+                With years of experience in the industry, I specialize in custom software development, system 
+                integrations, and comprehensive IT consulting services. I take the time to truly understand 
+                your unique challenges and craft tailored solutions that align with your specific goals.
             </p>
             <p>
-              With years of experience in the industry, we have the expertise to tackle any challenge. Our team works collaboratively to ensure we exceed expectations in every project we undertake.
+              With years of experience in the industry, we have the expertise to 
+              tackle any challenge. Our team works collaboratively to ensure we exceed 
+              expectations in every project we undertake.
             </p>
           </div>
           <div className="image">
