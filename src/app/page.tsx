@@ -93,7 +93,7 @@ export default function Home() {
 
       {/* Footer Section */}
       <footer>
-        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+        <p>&copy; Created by Urooj Muhammad Nazeer.</p>
       </footer>
     </section>
   );
